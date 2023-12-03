@@ -43,11 +43,11 @@ For help or issues, please [create an issue](https://github.com/walker88437/netc
 
 ## Roadmap
 
-- [] Add support for binary files
-- [] Add support for piping file contents
-- [] Add listening support
-- [] Integrate UDP support
-- [] Implement other features present in GNU Netcat
+- [ ] Add support for binary files
+- [ ] Add support for piping file contents
+- [ ] Add listening support
+- [ ] Integrate UDP support
+- [ ] Implement other features present in GNU Netcat
 
 ## Contributing
 
