@@ -1,10 +1,10 @@
 # netcat-win-rs
 
-A Windows port of the GNU Netcat command, currently under heavy development. Please note that various aspects of the code are subject to change as development progresses.
+A Windows port of the GNU Netcat command is currently under heavy development. Just so you know, various aspects of the code are subject to change as development progresses.
 
 ## Installation
 
-Ensure you have the the Rust compiler, which is needed in order to compile this project. If you don't like to build from source, you can use the precompiled binaries.
+Ensure you have the Rust compiler needed to compile this project. If you dislike building from a source, you can use the precompiled binaries.
 
 ```bash
 cargo build --release
@@ -13,7 +13,7 @@ cargo build --release
 ## Usage
 
 ```bash
-.\\netcat-windows [OPTIONS] <file> --address <address> --port <port>
+.\netcat-win-rs.exe [OPTIONS] <file> --address <address> --port <port>
 ```
 
 ### Options
@@ -28,13 +28,13 @@ cargo build --release
 Example of transferring a file to IPv4 address 192.168.1.100 on port 8080
 
 ```bash
-.\\netcat-windows file.txt --address 192.168.1.100 --port 8080
+.\netcat-win-rs.exe file.txt --address 192.168.1.100 --port 8080
 ```
 
 Example of transferring a file to IPv6 address [2001:db8::1] on port 8080
 
 ```bash
-.\\netcat-windows file.txt --address 2001:db8::1 --port 8080 --version 6
+.\netcat-win-rs.exe file.txt --address 2001:db8::1 --port 8080 --version 6
 ```
 
 ## Support
